@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1089319776322",
+    "firebase_url": "https://healthband-3de6c-default-rtdb.firebaseio.com",
+    "project_id": "healthband-3de6c",
+    "storage_bucket": "healthband-3de6c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089319776322:android:6be7503919843555d4fddb",
+        "android_client_info": {
+          "package_name": "com.example.healthband_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVEEAB8-5Sfb9uBQSu-IXevgvgIfXxyUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
