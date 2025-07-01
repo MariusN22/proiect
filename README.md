@@ -1,16 +1,35 @@
-# healthband_app
+# Sistem de Monitorizare, Suport și Siguranță pentru Persoane în Vârstă
 
-A new Flutter project.
+Aplicație mobilă dedicată monitorizării persoanelor în vârstă, care oferă funcționalități de urmărire în timp real a stării de sănătate, gestionarea relației pacient-medic și alertare în cazuri critice.
 
-## Getting Started
+## 📱 Tehnologii utilizate
 
-This project is a starting point for a Flutter application.
+- **Flutter** – interfață mobilă (Android)
+- **Firebase** – autentificare, bază de date realtime, stocare documente
+- **Senzori** – puls și temperatură integrați în dispozitiv
+- **Firebase Storage** – pentru încărcarea actelor de identitate și a documentelor medicale
 
-A few resources to get you started if this is your first Flutter project:
+## ⚙️ Funcționalități implementate
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ Aplicație pacient:
+- Înregistrare cu act de identitate
+- Alegere medic (din lista aprobată)
+- Afișare grafică a datelor de la senzori
+- Pagina de profil (cu poză salvată în Firebase)
+- Meniu lateral cu acces rapid la funcții
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✅ Aplicație medic:
+- Înregistrare cu documente medicale
+- Aprobare cont de către admin (din Firebase)
+- Vizualizare lista pacienți
+- Acces la datele medicale în timp real
+- Profil personalizat
+
+### 🔧 În curs de implementare:
+- Detecție cădere cu accelerometru
+- Alarme configurabile în aplicație
+- Secțiune recomandări (medicamente, repaus)
+- Roluri multiple (rude/îngrijitori cu acces la datele pacientului)
+
+
+
